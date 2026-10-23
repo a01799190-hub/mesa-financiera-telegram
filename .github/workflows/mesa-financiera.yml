@@ -6,7 +6,7 @@ name: mesa-financiera
 
 on:
   schedule:
-    - cron: "*/10 * * * *"          # hora UTC; GitHub puede retrasar unos minutos las ejecuciones
+    - cron: "*/30 * * * *"          # hora UTC; GitHub puede retrasar unos minutos las ejecuciones
   workflow_dispatch:
     inputs:
       ticker:
